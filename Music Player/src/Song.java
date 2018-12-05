@@ -1,5 +1,7 @@
+import java.io.Serializable;
+
 /** This class creates a Song Object. Song object contains name,artist,duration and album */
-public class Song {
+public class Song implements Serializable {
 	private String name;
 	private double duration;
 	private String artist;
