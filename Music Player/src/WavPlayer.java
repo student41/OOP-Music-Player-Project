@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 public class WavPlayer {
 
-public static String musicfile = ("8 Moments That Made Us Go Eff This Game.wav");
+public static String musicfile = ("");
     public static void main(String[] args) {
 
         playMusicWAV(musicfile);
@@ -34,7 +34,6 @@ public static String musicfile = ("8 Moments That Made Us Go Eff This Game.wav")
 
     }
 
-public static void Clip(String filepath){};
 
 
 
